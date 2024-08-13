@@ -11,14 +11,14 @@ const Location = () => {
   const [isAnimating, setIsAnimating] = useState(false);
   const pageCount = 8;
   const icoUrl = [
-    '/src/assets/icons/Mumbai_ico.png',
-    '/src/assets/icons/Delhi_ico.png',
-    '/src/assets/icons/bang_ico.png',
-    '/src/assets/icons/Chen_ico.png',
-    '/src/assets/icons/Hyd_ico.png',
-    '/src/assets/icons/Ahm_ico.png',
-    '/src/assets/icons/Pune_ico.png',
-    '/src/assets/icons/kol_ico.png',
+    '/assets/icons/Mumbai_ico.png',
+    '/assets/icons/Delhi_ico.png',
+    '/assets/icons/bang_ico.png',
+    '/assets/icons/Chen_ico.png',
+    '/assets/icons/Hyd_ico.png',
+    '/assets/icons/Ahm_ico.png',
+    '/assets/icons/Pune_ico.png',
+    '/assets/icons/kol_ico.png',
   ];
   const scrollToSlide = useCallback(
     (index) => {
