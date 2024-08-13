@@ -412,7 +412,7 @@ html {
     background-color: #00000000;
     height: 12.8%;
     width: 24%;
-    z-index: 999;
+    z-index: 9;
     transform: skew(0deg, -40.5deg);
     cursor: pointer;
   }
@@ -423,7 +423,7 @@ html {
     background-color: #00000000;
     height: 9.8%;
     width: 24%;
-    z-index: 999;
+    z-index: 9;
     transform: skew(0deg, -30deg);
     cursor: pointer;
   }
